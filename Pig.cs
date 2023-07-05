@@ -1,7 +1,9 @@
-namespace 
+using System;
+
+class Pig : IAnimal
 {
-    public class Pig
+    public void MakeSound()
     {
-        
+        Console.WriteLine("Oink!");
     }
 }
